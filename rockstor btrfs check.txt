@@ -1,0 +1,235 @@
+sudo btrfs check --force -p /dev/sda                                                                                                                                  
+[sudo] password for root:                                                                                                                                                                        
+Opening filesystem to check...                                                                                                                                                                   
+WARNING: filesystem mounted, continuing because of --force                                                                                                                                       
+Checking filesystem on /dev/sda                                                                                                                                                                  
+UUID: 629bcbeb-efe5-4b38-b3a0-26100e7cbb12                                                                                                                                                       
+parent transid verify failed on 47082436706304 wanted 6501541 found 8555784ems checked)                                                                                                          
+parent transid verify failed on 47082436706304 wanted 6501541 found 8555784                                                                                                                      
+parent transid verify failed on 47082436706304 wanted 6501541 found 2813921                                                                                                                      
+parent transid verify failed on 47082436706304 wanted 6501541 found 8555784                                                                                                                      
+Ignoring transid failure                                                                                                                                                                         
+[1/7] checking root items                      (0:02:50 elapsed, 5756686 items checked)                                                                                                          
+parent transid verify failed on 47082436706304 wanted 6501541 found 8555784s checked)                                                                                                            
+Ignoring transid failure                                                                                                                                                                         
+leaf parent key incorrect 47082436706304                                                                                                                                                         
+bad block 47082436706304                                                                                                                                                                         
+[2/7] checking extents                         (0:00:03 elapsed, 27426 items checked)                                                                                                            
+ERROR: errors found in extent allocation tree or chunk allocation                                                                                                                                
+block group 28319882346496 has wrong amount of free space, free space cache has 323584 block group has 389120                                                                                    
+failed to load free space cache for block group 28319882346496                                                                                                                                   
+block group 28648464121856 has wrong amount of free space, free space cache has 212992 block group has 241664                                                                                    
+failed to load free space cache for block group 28648464121856                                                                                                                                   
+block group 29298077925376 has wrong amount of free space, free space cache has 122880 block group has 139264                                                                                    
+failed to load free space cache for block group 29298077925376                                                                                                                                   
+block group 29303446634496 has wrong amount of free space, free space cache has 315392 block group has 364544                                                                                    
+failed to load free space cache for block group 29303446634496                                                                                                                                   
+block group 29351765016576 has wrong amount of free space, free space cache has 81920 block group has 94208                                                                                      
+failed to load free space cache for block group 29351765016576                                                                                                                                   
+block group 29700731109376 has wrong amount of free space, free space cache has 36864 block group has 53248                                                                                      
+failed to load free space cache for block group 29700731109376                                                                                                                                   
+block group 29818842710016 has wrong amount of free space, free space cache has 339968 block group has 364544                                                                                    
+failed to load free space cache for block group 29818842710016                                                                                                                                   
+block group 30674732384256 has wrong amount of free space, free space cache has 1146880 block group has 1196032                                                                                  
+failed to load free space cache for block group 30674732384256                                                                                                                                   
+block group 31346911543296 has wrong amount of free space, free space cache has 36864 block group has 53248                                                                                      
+failed to load free space cache for block group 31346911543296                                                                                                                                   
+block group 31825817174016 has wrong amount of free space, free space cache has 2027520 block group has 2048000                                                                                  
+failed to load free space cache for block group 31825817174016                                                                                                                                   
+block group 34297604407296 has wrong amount of free space, free space cache has 24576 block group has 53248                                                                                      
+failed to load free space cache for block group 34297604407296                                                                                                                                   
+block group 34329816662016 has wrong amount of free space, free space cache has 57344 block group has 98304                                                                                      
+failed to load free space cache for block group 34329816662016                                                                                                                                   
+block group 34571408572416 has wrong amount of free space, free space cache has 131072 block group has 163840                                                                                    
+failed to load free space cache for block group 34571408572416                                                                                                                                   
+block group 34716363718656 has wrong amount of free space, free space cache has 53248 block group has 94208                                                                                      
+failed to load free space cache for block group 34716363718656                                                                                                                                   
+block group 34721732427776 has wrong amount of free space, free space cache has 184320 block group has 217088                                                                                    
+failed to load free space cache for block group 34721732427776                                                                                                                                   
+block group 36764022931456 has wrong amount of free space, free space cache has 24576 block group has 36864                                                                                      
+failed to load free space cache for block group 36764022931456                                                                                                                                   
+block group 37209625788416 has wrong amount of free space, free space cache has 98304 block group has 258048                                                                                     
+failed to load free space cache for block group 37209625788416                                                                                                                                   
+parent transid verify failed on 47082436706304 wanted 6501541 found 8555784 checked)                                                                                                             
+Ignoring transid failure                                                                                                                                                                         
+there is no free space entry for 39853163864064-29861573771264                                                                                                                                   
+there is no free space entry for 39853163864064-39856483270656                                                                                                                                   
+cache appears valid but isn't 39851114561536                                                                                                                                                     
+block group 40484622237696 has wrong amount of free space, free space cache has 757760 block group has 827392                                                                                    
+failed to load free space cache for block group 40484622237696                                                                                                                                   
+block group 40532940619776 has wrong amount of free space, free space cache has 94208 block group has 102400                                                                                     
+failed to load free space cache for block group 40532940619776                                                                                                                                   
+block group 41424146333696 has wrong amount of free space, free space cache has 3751936 block group has 3817472                                                                                  
+failed to load free space cache for block group 41424146333696                                                                                                                                   
+block group 41467096006656 has wrong amount of free space, free space cache has 1470464 block group has 1486848                                                                                  
+failed to load free space cache for block group 41467096006656                                                                                                                                   
+block group 42036179173376 has wrong amount of free space, free space cache has 81920 block group has 143360                                                                                     
+failed to load free space cache for block group 42036179173376                                                                                                                                   
+block group 42042638401536 has wrong amount of free space, free space cache has 73728 block group has 208896                                                                                     
+failed to load free space cache for block group 42042638401536                                                                                                                                   
+block group 42048007110656 has wrong amount of free space, free space cache has 319488 block group has 434176                                                                                    
+failed to load free space cache for block group 42048007110656                                                                                                                                   
+block group 42284230311936 has wrong amount of free space, free space cache has 987136 block group has 995328                                                                                    
+failed to load free space cache for block group 42284230311936                                                                                                                                   
+block group 43051955716096 has wrong amount of free space, free space cache has 167936 block group has 262144                                                                                    
+failed to load free space cache for block group 43051955716096                                                                                                                                   
+block group 43214107508736 has wrong amount of free space, free space cache has 217088 block group has 348160                                                                                    
+failed to load free space cache for block group 43214107508736                                                                                                                                   
+block group 43230213636096 has wrong amount of free space, free space cache has 491520 block group has 573440                                                                                    
+failed to load free space cache for block group 43230213636096                                                                                                                                   
+block group 44239530950656 has wrong amount of free space, free space cache has 65536 block group has 106496                                                                                     
+failed to load free space cache for block group 44239530950656                                                                                                                                   
+block group 44277111914496 has wrong amount of free space, free space cache has 53248 block group has 98304                                                                                      
+failed to load free space cache for block group 44277111914496                                                                                                                                   
+block group 44298586750976 has wrong amount of free space, free space cache has 61440 block group has 81920                                                                                      
+failed to load free space cache for block group 44298586750976                                                                                                                                   
+block group 44303955460096 has wrong amount of free space, free space cache has 348160 block group has 417792                                                                                    
+failed to load free space cache for block group 44303955460096                                                                                                                                   
+block group 44309324169216 has wrong amount of free space, free space cache has 212992 block group has 323584                                                                                    
+failed to load free space cache for block group 44309324169216                                                                                                                                   
+block group 44336167714816 has wrong amount of free space, free space cache has 69632 block group has 143360                                                                                     
+failed to load free space cache for block group 44336167714816                                                                                                                                   
+block group 44357642551296 has wrong amount of free space, free space cache has 81920 block group has 172032                                                                                     
+failed to load free space cache for block group 44357642551296                                                                                                                                   
+block group 44363011260416 has wrong amount of free space, free space cache has 163840 block group has 180224                                                                                    
+failed to load free space cache for block group 44363011260416                                                                                                                                   
+block group 44739911417856 has wrong amount of free space, free space cache has 393216 block group has 413696                                                                                    
+failed to load free space cache for block group 44739911417856                                                                                                                                   
+block group 44756017545216 has wrong amount of free space, free space cache has 278528 block group has 294912                                                                                    
+failed to load free space cache for block group 44756017545216                                                                                                                                   
+block group 45959698907136 has wrong amount of free space, free space cache has 663552 block group has 798720                                                                                    
+failed to load free space cache for block group 45959698907136                                                                                                                                   
+block group 45970436325376 has wrong amount of free space, free space cache has 700416 block group has 770048                                                                                    
+failed to load free space cache for block group 45970436325376                                                                                                                                   
+block group 46314033709056 has wrong amount of free space, free space cache has 1220608 block group has 1232896                                                                                  
+failed to load free space cache for block group 46314033709056                                                                                                                                   
+block group 53305333514240 has wrong amount of free space, free space cache has 503808 block group has 516096                                                                                    
+failed to load free space cache for block group 53305333514240                                                                                                                                   
+[3/7] checking free space cache                (0:00:46 elapsed, 7513 items checked)                                                                                                             
+root 2513 inode 10972 errors 200, dir isize wrong:18:21 elapsed, 8662 items checked)                                                                                                             
+root 2513 inode 11226 errors 200, dir isize wrong                                                                                                                                                
+root 2513 inode 12174 errors 200, dir isize wrong                                                                                                                                                
+root 2513 inode 35565 errors 200, dir isize wrong                                                                                                                                                
+root 2513 inode 46758 errors 200, dir isize wrong                                                                                                                                                
+root 2513 inode 119147 errors 200, dir isize wrong                                                                                                                                               
+root 2513 inode 636716 errors 200, dir isize wrong                                                                                                                                               
+        unresolved ref dir 35565 index 2915 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 12174 index 2239749 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 46758 index 2300869 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 636716 index 739 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 119147 index 2596 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 11226 index 2859 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 10972 index 2969 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 2919 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 2918 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 119147 index 2599 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                      
+        unresolved ref dir 636716 index 742 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 11226 index 2862 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300873 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 46758 index 2300872 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 10972 index 2973 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 10972 index 2972 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 12174 index 2239752 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 10972 index 2975 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 35565 index 2921 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 636716 index 745 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300875 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 46758 index 2300877 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 10972 index 2977 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 35565 index 2923 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 119147 index 2610 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 35565 index 2935 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 46758 index 2300889 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 10972 index 2989 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 46758 index 2300893 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 46758 index 2300892 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 10972 index 2993 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 10972 index 2992 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 35565 index 2939 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 2938 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 12174 index 2239765 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 35565 index 2941 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300895 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 119147 index 2612 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                      
+        unresolved ref dir 10972 index 2995 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 35565 index 2943 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 10972 index 2997 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300897 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 119147 index 2616 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                      
+        unresolved ref dir 119147 index 2628 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 10972 index 3009 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 46758 index 2300909 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 35565 index 2955 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 2959 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 2958 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300913 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 46758 index 2300912 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 10972 index 3013 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 10972 index 3012 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 119147 index 2631 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                      
+        unresolved ref dir 10972 index 3015 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 35565 index 2961 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 11226 index 2885 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300915 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 35565 index 2963 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300917 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 10972 index 3017 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300929 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 10972 index 3029 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 2975 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 2979 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 2978 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 10972 index 3033 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 10972 index 3032 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300933 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 46758 index 2300932 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 46758 index 2300935 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 35565 index 2981 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 10972 index 3035 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300937 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 35565 index 2983 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 10972 index 3037 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 10972 index 3049 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 46758 index 2300949 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 35565 index 2995 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 46758 index 2300953 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 46758 index 2300952 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 35565 index 2999 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 2998 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 10972 index 3053 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 10972 index 3052 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 119147 index 2654 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                      
+        unresolved ref dir 10972 index 3055 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300955 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 35565 index 3001 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300957 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 35565 index 3003 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 10972 index 3057 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300969 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 10972 index 3069 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 119147 index 2666 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 35565 index 3015 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 3019 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 35565 index 3018 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 10972 index 3073 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                        
+        unresolved ref dir 10972 index 3072 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300973 namelen 14 name config.v2.json filetype 1 errors 5, no dir item, no inode ref                                                                     
+        unresolved ref dir 46758 index 2300972 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 119147 index 2668 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                      
+        unresolved ref dir 35565 index 3021 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300975 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 10972 index 3075 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 46758 index 2300977 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                    
+        unresolved ref dir 10972 index 3077 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+        unresolved ref dir 35565 index 3023 namelen 15 name hostconfig.json filetype 1 errors 5, no dir item, no inode ref                                                                       
+root 2529 inode 5420033 errors 400, nbytes wrong3:59:21 elapsed, 35500 items checked)                                                                                                            
+[4/7] checking fs roots                        (4:00:39 elapsed, 58242 items checked)                                                                                                            
+ERROR: errors found in fs roots                                                                                                                                                                  
+found 18972941201408 bytes used, error(s) found                                                                                                                                                  
+total csum bytes: 0                                                                                                                                                                              
+total tree bytes: 449298432                                                                                                                                                                      
+total fs tree bytes: 0                                                                                                                                                                           
+total extent tree bytes: 444268544                                                                                                                                                               
+btree space waste bytes: 106641973                                                                                                                                                               
+file data blocks allocated: 3707895808                                                                                                                                                           
+ referenced 3707895808        
